@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Friends Circle – Free WhatsApp Group | Chat, Seekho, Aage Barho</title>
+<meta name="description" content="Free, safe aur active WhatsApp community. Study, skills, online earning, fashion aur zyada. Abhi join karein.">
+<meta name="theme-color" content="#160A2B">
+<meta property="og:title" content="Friends Circle – Free WhatsApp Group">
+<meta property="og:description" content="Free to join. Safe, active aur respect wali community.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--night:#160A2B;--night2:#241044;--card:rgba(255,255,255,.07);--line:rgba(255,255,255,.14);
+--pink:#FF4D8D;--amber:#FFC857;--lilac:#C9A7FF;--wa:#25D366;--wa-d:#073B1C;--text:#F6EEFF;--muted:#BDAAD8}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'Nunito',system-ui,sans-serif;color:var(--text);line-height:1.65;font-size:17px;background:var(--night);overflow-x:hidden;padding-bottom:76px}
+body::before{content:"";position:fixed;inset:0;z-index:-1;background:
+radial-gradient(600px 400px at 85% 5%,rgba(255,77,141,.35),transparent 70%),
+radial-gradient(700px 500px at 5% 40%,rgba(140,90,255,.30),transparent 70%),
+radial-gradient(600px 400px at 90% 85%,rgba(255,200,87,.16),transparent 70%),var(--night)}
+h1,h2,h3{font-family:'Bricolage Grotesque','Nunito',sans-serif;line-height:1.08}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+section{padding:76px 0}
+h2{font-size:clamp(1.9rem,4.4vw,2.8rem);margin-bottom:12px}
+.sub{color:var(--muted);max-width:38em;margin-bottom:36px}
+
+/* Nav */
+nav{position:sticky;top:0;z-index:20;backdrop-filter:blur(14px);background:rgba(22,10,43,.72);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-family:'Bricolage Grotesque';font-weight:800;font-size:1.3rem;text-decoration:none}
+.logo i{font-style:normal;color:var(--pink)}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--wa);color:var(--wa-d);font-weight:800;font-size:1.05rem;text-decoration:none;padding:15px 28px;border-radius:99px;border:0;cursor:pointer;font-family:inherit;box-shadow:0 8px 30px rgba(37,211,102,.35);transition:transform .15s}
+.btn:hover{transform:translateY(-2px) scale(1.02)}
+.btn.sm{padding:9px 18px;font-size:.95rem;box-shadow:none}
+.btn.line{background:transparent;color:var(--text);border:2px solid var(--line);box-shadow:none}
+.btn svg{width:22px;height:22px;fill:currentColor}
+
+/* Hero */
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:44px;align-items:center;padding-top:60px;padding-bottom:70px}
+.pill{display:inline-flex;gap:8px;align-items:center;background:var(--card);border:1px solid var(--line);padding:7px 16px;border-radius:99px;font-weight:700;font-size:.92rem;margin-bottom:20px}
+.pill b{width:9px;height:9px;border-radius:50%;background:var(--wa);animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.6)}100%{box-shadow:0 0 0 12px rgba(37,211,102,0)}}
+h1{font-size:clamp(2.6rem,7vw,4.8rem);font-weight:800;letter-spacing:-.025em}
+h1 span{display:block;background:linear-gradient(90deg,var(--pink),var(--amber));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{margin:20px 0 30px;max-width:32em;font-size:1.12rem;color:#E4D6F7}
+.cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.mini{margin-top:18px;font-size:.92rem;color:var(--muted)}
+
+/* Phone */
+.phone{max-width:340px;margin:0 auto;border-radius:38px;padding:12px;background:linear-gradient(160deg,#3a1f66,#1b0d33);border:2px solid var(--line);box-shadow:0 30px 80px rgba(255,77,141,.28);transform:rotate(2.5deg)}
+.screen{background:#0E0720;border-radius:28px;overflow:hidden;min-height:430px;display:flex;flex-direction:column}
+.bar{display:flex;gap:10px;align-items:center;padding:14px 16px;background:#2A1650}
+.av{width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,var(--pink),var(--amber));display:grid;place-items:center;font-weight:800;color:#2A1650}
+.bar small{display:block;color:#7CF0A8;font-size:.78rem}
+.msgs{padding:16px;display:flex;flex-direction:column;gap:10px;flex:1}
+.m{max-width:84%;padding:9px 13px;border-radius:16px;font-size:.93rem;opacity:0;animation:pop .5s forwards;color:#1b1030}
+.m b{display:block;font-size:.74rem;margin-bottom:1px}
+.m.l{background:#E9DDFB;border-bottom-left-radius:4px}
+.m.r{background:#D9FDD3;align-self:flex-end;border-bottom-right-radius:4px}
+.m:nth-child(1){animation-delay:.4s}.m:nth-child(2){animation-delay:1.3s}.m:nth-child(3){animation-delay:2.2s}
+.m:nth-child(4){animation-delay:3.1s}.m:nth-child(5){animation-delay:4s}
+@keyframes pop{from{opacity:0;transform:translateY(10px) scale(.96)}to{opacity:1;transform:none}}
+.typing{display:flex;gap:4px;padding:0 20px 18px}
+.typing i{width:7px;height:7px;border-radius:50%;background:var(--lilac);animation:dot 1.2s infinite}
+.typing i:nth-child(2){animation-delay:.2s}.typing i:nth-child(3){animation-delay:.4s}
+@keyframes dot{0%,60%,100%{opacity:.3;transform:none}30%{opacity:1;transform:translateY(-4px)}}
+
+/* Unlock timer */
+.unlock{max-width:560px;margin:0 auto;text-align:center;background:var(--card);border:2px solid var(--pink);border-radius:28px;padding:32px 24px;box-shadow:0 20px 60px rgba(255,77,141,.22)}
+.unlock h2{font-size:clamp(1.6rem,4vw,2.2rem)}
+.ring{position:relative;width:150px;height:150px;margin:18px auto}
+.ring svg{width:150px;height:150px;transform:rotate(-90deg)}
+.ring circle{fill:none;stroke-width:10}
+.ring .bg{stroke:rgba(255,255,255,.12)}
+.ring .fg{stroke:url(#g);stroke-linecap:round;stroke-dasharray:339.3;stroke-dashoffset:0;transition:stroke-dashoffset 1s linear}
+.ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:'Bricolage Grotesque';font-size:2.6rem}
+.status{color:var(--muted);font-size:.95rem;min-height:1.6em;margin-bottom:14px}
+.btn[aria-disabled="true"]{background:#3b2a5c;color:#9c88c0;box-shadow:none;cursor:not-allowed;pointer-events:none}
+.ad{min-height:100px;margin:18px 0;border-radius:14px;border:1px dashed var(--line);display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;padding:8px}
+.ad::before{content:"Advertisement";font-size:.72rem;color:var(--muted);margin-bottom:4px}
+.fine{font-size:.82rem;color:var(--muted);margin-top:12px}
+
+/* Stats strip */
+.strip{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.strip div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;text-align:center}
+.strip strong{display:block;font-family:'Bricolage Grotesque';font-size:1.5rem;color:var(--amber)}
+.strip span{font-size:.9rem;color:var(--muted)}
+
+/* Marquee */
+.marq{overflow:hidden;border-block:1px solid var(--line);padding:16px 0;background:rgba(255,255,255,.03)}
+.track{display:flex;gap:14px;width:max-content;animation:slide 30s linear infinite}
+.marq:hover .track{animation-play-state:paused}
+.track span{white-space:nowrap;padding:8px 20px;border-radius:99px;background:var(--card);border:1px solid var(--line);font-weight:700}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* Cards */
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.c{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:26px;transition:transform .2s,border-color .2s}
+.c:hover{transform:translateY(-4px);border-color:var(--pink)}
+.c .ic{font-size:1.9rem;margin-bottom:10px}
+.c h3{font-size:1.2rem;margin-bottom:6px}
+.c p{color:var(--muted);font-size:.97rem}
+
+/* Steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;counter-reset:s}
+.st{position:relative;background:linear-gradient(160deg,rgba(255,77,141,.18),rgba(140,90,255,.14));border:1px solid var(--line);border-radius:22px;padding:28px 24px}
+.st::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:var(--pink);color:#2A0B1B;font-family:'Bricolage Grotesque';font-weight:800;margin-bottom:12px}
+.st h3{margin-bottom:6px;font-size:1.25rem}.st p{color:#E4D6F7}
+
+/* Rules */
+.rules{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.r{border-left:4px solid var(--amber);background:var(--card);padding:18px 18px;border-radius:6px 18px 18px 6px}
+.r strong{display:block;color:var(--amber);margin-bottom:4px}
+.r span{font-size:.94rem;color:var(--muted)}
+
+/* Share */
+.share{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:34px;text-align:center}
+.share .cta{justify-content:center;margin-top:18px}
+
+details{border-bottom:1px solid var(--line);padding:18px 0}
+summary{cursor:pointer;font-weight:800;font-size:1.06rem}
+details p{margin-top:8px;color:var(--muted);max-width:42em}
+
+.final{text-align:center}
+.final .box{background:linear-gradient(120deg,var(--pink),var(--amber));color:#2A0B1B;border-radius:32px;padding:56px 24px}
+.final h2{color:#2A0B1B}.final p{margin-bottom:22px;font-weight:600}
+.final .btn{background:#1b0d33;color:#fff;box-shadow:none}
+
+footer{text-align:center;padding:30px 22px;font-size:.88rem;color:var(--muted)}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:10px 16px;background:rgba(22,10,43,.9);backdrop-filter:blur(12px);border-top:1px solid var(--line);display:flex;justify-content:center}
+.sticky .btn{width:100%;max-width:420px;justify-content:center;padding:13px}
+
+@media(max-width:860px){
+ .hero .wrap{grid-template-columns:1fr;padding-top:40px}
+ .grid,.steps{grid-template-columns:1fr}
+ .rules,.strip{grid-template-columns:1fr 1fr}
+ section{padding:54px 0}
+ .phone{transform:none}
+}
+@media(max-width:480px){.rules,.strip{grid-template-columns:1fr}.nav-cta{display:none}}
+@media(prefers-reduced-motion:reduce){
+ .m{animation:none;opacity:1}.track,.pill b,.typing i{animation:none}html{scroll-behavior:auto}.btn,.c{transition:none}
+}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+  <a class="logo" href="#top">Friends<i>Circle</i></a>
+  <a class="btn sm nav-cta" data-join href="#" target="_blank" rel="noopener">Join Free</a>
+</div></nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div>
+    <span class="pill"><b></b>Free to join · Girls &amp; Boys welcome</span>
+    <h1>Baat karo. Seekho.<span>Aage barho.</span></h1>
+    <p class="lead">Friends Circle ek safe aur active WhatsApp community hai. Study, skills, online kaam aur dosti, sab ek jagah. Koi fees nahi, koi pressure nahi.</p>
+    <div class="cta">
+      <a class="btn" data-join href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.3-.5.1-1.2.1-3.7-.9-3.1-1.3-5-4.5-5.2-4.7-.1-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.2c.1.2.1.4 0 .5l-.4.6c-.2.2-.3.4-.1.7.2.3.8 1.3 1.7 2.1 1.2 1 2.2 1.4 2.5 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.8-.1 1.4Z"/></svg>
+        WhatsApp group join karein</a>
+      <a class="btn line" href="#kya">Kya milega?</a>
+    </div>
+    <p class="mini">Join karne se pehle rules zaroor parh lein.</p>
+  </div>
+  <div class="phone" aria-label="Sample chat preview"><div class="screen">
+    <div class="bar"><div class="av">F</div><div><strong>Friends Circle</strong><small>online</small></div></div>
+    <div class="msgs">
+      <div class="m l"><b>Ayesha</b>Kisi ko home business ka idea chahiye?</div>
+      <div class="m r"><b>Hamza</b>Haan! Main ne shuru kiya, sab share karunga.</div>
+      <div class="m l"><b>Maryam</b>Exam tips aaj raat 9 baje voice note mein.</div>
+      <div class="m r"><b>Sana</b>Yahan sab itne kind hain, love this group.</div>
+      <div class="m l"><b>Admin</b>Naye members ka welcome! Rules pin hain.</div>
+    </div>
+    <div class="typing" aria-hidden="true"><i></i><i></i><i></i></div>
+  </div></div>
+</div></header>
+
+<section id="unlock" style="padding:0 0 60px"><div class="wrap">
+  <div class="unlock">
+    <h2>Group link unlock karein</h2>
+    <p class="sub" style="margin:8px auto 0">Group free rakhne ke liye ads dikhaye jate hain. 60 second ka timer poora hone par join link khul jayega.</p>
+    <div class="ad" id="ad1"><!-- 👇 Monetag banner/ad ka code yahan paste karein --></div>
+    <div class="ring" role="timer" aria-live="off">
+      <svg viewBox="0 0 120 120" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF4D8D"/><stop offset="1" stop-color="#FFC857"/></linearGradient></defs><circle class="bg" cx="60" cy="60" r="54"/><circle class="fg" id="fg" cx="60" cy="60" r="54"/></svg>
+      <b id="sec">60</b>
+    </div>
+    <p class="status" id="st" aria-live="polite">Timer chal raha hai, is page par rahein.</p>
+    <a class="btn" id="unlockBtn" href="#" aria-disabled="true" target="_blank" rel="noopener">Link locked · intezaar karein</a>
+    <div class="ad" id="ad2"><!-- 👇 Monetag doosra ad slot (optional) --></div>
+    <p class="fine">Timer sirf tab chalta hai jab ye tab khula ho.</p>
+  </div>
+</div></section>
+
+<section style="padding:0 0 56px"><div class="wrap strip">
+  <div><strong>100%</strong><span>Free join</span></div>
+  <div><strong>Roz</strong><span>Active chat</span></div>
+  <div><strong>Admin</strong><span>Moderated group</span></div>
+  <div><strong>Kabhi bhi</strong><span>Leave karein</span></div>
+</div></section>
+
+<div class="marq" aria-hidden="true"><div class="track" id="trk"></div></div>
+
+<section id="kya"><div class="wrap">
+  <h2>Group mein kya milega?</h2>
+  <p class="sub">Roz ki baat-cheet aur wo cheezein jo sach mein kaam aati hain.</p>
+  <div class="grid">
+    <div class="c"><div class="ic">📚</div><h3>Study help</h3><p>Notes, exam tips aur doubts ka jawab, ek doosre se seekhein.</p></div>
+    <div class="c"><div class="ic">💻</div><h3>Skills &amp; freelancing</h3><p>Naye skills, free courses aur freelancing ke asaan tips.</p></div>
+    <div class="c"><div class="ic">💡</div><h3>Online earning ideas</h3><p>Sachi aur practical baatein, jhoote wadon ke baghair.</p></div>
+    <div class="c"><div class="ic">👗</div><h3>Fashion &amp; style</h3><p>Outfit ideas, skincare aur trends par khuli discussion.</p></div>
+    <div class="c"><div class="ic">🎙️</div><h3>Weekly voice chats</h3><p>Har hafte kisi topic par live voice discussion aur Q&amp;A.</p></div>
+    <div class="c"><div class="ic">💜</div><h3>Support &amp; dosti</h3><p>Aisi community jahan aap judge nahi hotay, sirf suni jaati hain.</p></div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2>Join karna sirf 3 qadam hai</h2>
+  <p class="sub">Ye ek tarteeb hai, har qadam pichle ke baad aata hai.</p>
+  <div class="steps">
+    <div class="st"><h3>60 second ka timer</h3><p>Join button dabayein, timer poora hone dein.</p></div>
+    <div class="st"><h3>Link unlock, join karein</h3><p>Green button khulega, "Join group" dabayein.</p></div>
+    <div class="st"><h3>Rules parhein, hello kahein</h3><p>Pinned rules parh kar apna introduction dein.</p></div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2>Hamare rules</h2>
+  <p class="sub">Group ko safe rakhne ke liye ye sab ke liye lazmi hain.</p>
+  <div class="rules">
+    <div class="r"><strong>Respect first</strong><span>Bullying, gaali ya judgement ki koi jagah nahi.</span></div>
+    <div class="r"><strong>Privacy</strong><span>Kisi ki photo, number ya screenshot share na karein.</span></div>
+    <div class="r"><strong>No spam</strong><span>Bina ijazat links, ads aur promotion allowed nahi.</span></div>
+    <div class="r"><strong>Sab ke liye</strong><span>Girls aur boys dono welcome, fake profiles remove hotay hain.</span></div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <div class="share">
+    <h2>Dost ko bhi bhejein</h2>
+    <p class="sub" style="margin:0 auto">Acha laga to ye page apne doston ke saath share karein.</p>
+    <div class="cta">
+      <a class="btn" id="shwa" href="#" target="_blank" rel="noopener">WhatsApp par share</a>
+      <button class="btn line" id="cp" type="button">Link copy karein</button>
+    </div>
+  </div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2>Aam sawal</h2>
+  <details><summary>60 second intezaar kyun karna parta hai?</summary><p>Group free hai aur is page ko chalane ke liye ads dikhaye jate hain. Timer ke baad link seedha khul jata hai, koi fee nahi.</p></details>
+  <details><summary>Kya group sach mein free hai?</summary><p>Ji haan, join karna aur group ka hissa banna bilkul free hai.</p></details>
+  <details><summary>Mera number sab ko nazar aayega?</summary><p>WhatsApp group mein members ka number dikhta hai. Privacy chahiye to apni WhatsApp privacy settings check kar lein.</p></details>
+  <details><summary>Admins kaun hain?</summary><p>Admins girls aur boys dono hain, jo rules follow karwate hain aur members ki madad karte hain.</p></details>
+  <details><summary>Kya main kabhi bhi leave kar sakti/sakta hoon?</summary><p>Bilkul. Jab chahein group chhod sakte hain, koi sawal nahi.</p></details>
+  <details><summary>Group mein koi masla ho to?</summary><p>Kisi bhi admin ko private message karein ya message ko report karein. Foran action liya jata hai.</p></details>
+</div></section>
+
+<section class="final" style="padding-top:0"><div class="wrap"><div class="box">
+  <h2>Aap ki jagah yahan hai.</h2>
+  <p>Aaj hi join karein aur naye doston se milein.</p>
+  <a class="btn" data-join href="#" target="_blank" rel="noopener">Join Friends Circle</a>
+</div></div></section>
+
+<footer>© 2026 Friends Circle · Ek community, sab ke liye respect.</footer>
+
+<div class="sticky"><a class="btn" data-join href="#" target="_blank" rel="noopener">Free WhatsApp group join karein</a></div>
+
+<script>
+  // 👇 Apna WhatsApp group invite link yahan paste karein
+  var WHATSAPP_LINK = "https://chat.whatsapp.com/CfNMNq1J6dTJHpubVt2iZX";
+
+  // Saare "Join" buttons pehle unlock section par le jate hain
+  document.querySelectorAll("[data-join]").forEach(function(a){ a.href = "#unlock"; a.removeAttribute("target"); });
+
+  // ⏱️ Timer: kitne second baad link unlock ho
+  var WAIT = 60, left = WAIT;
+  var secEl = document.getElementById("sec"), fg = document.getElementById("fg"),
+      st = document.getElementById("st"), ub = document.getElementById("unlockBtn");
+  var timer = setInterval(function(){
+    if (document.hidden) { st.textContent = "Timer ruka hua hai, is tab par wapas aayein."; return; }
+    left--;
+    secEl.textContent = left;
+    fg.style.strokeDashoffset = (339.3 * (1 - left / WAIT)).toFixed(1);
+    st.textContent = "Timer chal raha hai, is page par rahein.";
+    if (left <= 0) {
+      clearInterval(timer);
+      ub.href = WHATSAPP_LINK;
+      ub.removeAttribute("aria-disabled");
+      ub.textContent = "Link unlock ho gaya · WhatsApp join karein";
+      st.textContent = "Shukriya! Ab aap join kar sakte hain.";
+    }
+  }, 1000);
+
+  var topics = ["Study help","Skills","Freelancing","Online earning","Fashion","Skincare","Recipes","Book club","Voice chats","Mental wellbeing","Motivation","Tech tips"];
+  var t = document.getElementById("trk");
+  t.innerHTML = topics.concat(topics).map(function(x){ return "<span>"+x+"</span>"; }).join("");
+
+  var pageUrl = location.href.split("#")[0];
+  var msg = "Free WhatsApp community: Friends Circle. Join karein: " + pageUrl;
+  document.getElementById("shwa").href = "https://wa.me/?text=" + encodeURIComponent(msg);
+  document.getElementById("cp").addEventListener("click", function(){
+    var b = this;
+    function done(){ b.textContent = "Copy ho gaya ✓"; setTimeout(function(){ b.textContent = "Link copy karein"; }, 2000); }
+    if (navigator.clipboard) { navigator.clipboard.writeText(pageUrl).then(done, done); } else { done(); }
+  });
+</script>
+</body>
+</html>
